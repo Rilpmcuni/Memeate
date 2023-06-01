@@ -55,7 +55,7 @@ function App() {
     html2canvas(element).then((canvas) => {
       const imgData = canvas.toDataURL("image/png");
       const link = document.createElement("a");
-      link.download = "componente.png";
+      link.download = "memeado.png";
       link.href = imgData;
       link.click();
     });
